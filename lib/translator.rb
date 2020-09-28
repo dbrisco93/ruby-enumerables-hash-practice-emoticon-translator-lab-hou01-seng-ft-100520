@@ -5,7 +5,9 @@ require 'pry'
 def load_library(emoticons)
   # code goes here
   new_hash = {}
-  YAML.load_file(emoticons)
+  YAML.load_file(emoticons).count do |key, value|
+  binding.pry
+  end
   
   new_hash
 end
