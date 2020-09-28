@@ -8,7 +8,6 @@ def load_library(emoticons)
   YAML.load_file(emoticons).each do |key, value|
     new_hash[key] = {}
   end
-  binding.pry
   new_hash
 end
 
