@@ -20,5 +20,5 @@ end
 
 def get_english_meaning(load_library, emoticon)
   # code goes here
-  user_input = ""
+  
 end
