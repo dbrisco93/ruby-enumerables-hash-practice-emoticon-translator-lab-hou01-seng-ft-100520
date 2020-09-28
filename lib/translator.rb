@@ -18,6 +18,7 @@ def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(load_library)
   # code goes here
+  user_input = ""
 end
