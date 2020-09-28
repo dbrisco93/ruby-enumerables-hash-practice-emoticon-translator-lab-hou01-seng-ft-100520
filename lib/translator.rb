@@ -9,8 +9,9 @@ def load_library(emoticons)
     new_hash[key] = {}
     new_hash[key][:english] = ""
     new_hash[key][:japanese] = ""
+    binding.pry
   end
-  binding.pry
+
   new_hash
 end
 
