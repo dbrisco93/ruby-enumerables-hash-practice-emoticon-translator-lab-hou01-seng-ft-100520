@@ -24,6 +24,5 @@ def get_english_meaning(path, emoticon)
     if  value[:japanese] == emoticon
       puts key
   end
-    binding.pry
   end
 end
